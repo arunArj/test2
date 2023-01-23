@@ -1,0 +1,79 @@
+@import url('/assets/css/Roboto-Bold.ttf');
+@import url('/assets/css/Roboto-Regular.ttf');
+.btn{
+    padding: 13px 10px 13px 10px;
+    vertical-align: top;
+}
+
+.subscribe-button{
+    color: white;
+    background-color: rgb(213, 0, 0);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; 
+    margin-right: 10px;
+    transition: opacity 0.15s;
+}   
+.subscribe-button:hover{
+    opacity: 0.8;
+}
+.subscribe-button:active{
+    opacity: 0.5;
+}
+.join-button{
+    border-color:rgb(8, 123, 231) ;
+    border-style: solid;
+    background-color: white;
+    color: rgb(8, 123, 231) ;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s,color 0.2s;
+    padding: 13px 20px 13px 20px!important;
+    
+
+}
+.join-button:hover{
+    background-color: rgb(8, 123, 231);
+    color: white;
+}
+.join-button:active{
+    opacity: 0.7;
+}
+.tweet-button{
+    
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(18, 126, 234);
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: opacity 0.15s;
+    padding: 13px 20px 13px 20px!important;
+   
+} 
+.tweet-button:hover{
+    opacity: 0.8;
+    box-shadow: 2px 10px 10px rgba(0,0,0, 0.15);
+
+}
+.tweet-button:active{
+    opacity: 0.5;
+}
+
+.git-button{
+    border:solid 1px #6e40c9;
+    /*background-color: #fff;*/
+
+}
+/*********************text***************************/
+.video-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 318px;
+    line-height: 40px;
+    margin: 10 0 0 0;
+
+}
